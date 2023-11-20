@@ -90,7 +90,7 @@ class _DropDownFieldState<T> extends State<_DropDownField<T>> {
     return GestureDetector(
       onTap: widget.onTap,
       child: Container(
-        padding: _headerPadding,
+        // padding: _headerPadding,
         decoration: BoxDecoration(
           color: widget.fillColor ?? _defaultFillColor,
           border: widget.border,
